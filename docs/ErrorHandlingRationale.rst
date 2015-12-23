@@ -7,12 +7,12 @@ which have been proposed or are in practice in other languages, and
 ultimately proposes an error-handling scheme for Swift together
 with import rules for our APIs.
 
+.. contents::
+
 Fundamentals
 ============
 
 I need to establish some terminology first.
-
-.. contents::
 
 Kinds of propagation
 --------------------
