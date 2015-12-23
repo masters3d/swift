@@ -1,7 +1,3 @@
-Swift
-=====
-
-.. contents::
 
 Error Handling Rationale and Proposal
 *************************************
