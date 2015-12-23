@@ -12,6 +12,8 @@ Fundamentals
 
 I need to establish some terminology first.
 
+.. contents::
+
 Kinds of propagation
 --------------------
 
