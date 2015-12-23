@@ -1,7 +1,7 @@
 .. @raise litre.TestsAreMissing
 
 Swift
-=================================
+=====
 
 .. contents::
 
