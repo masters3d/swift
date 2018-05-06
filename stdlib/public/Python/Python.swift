@@ -144,7 +144,7 @@ extension PyValue {
 
 // For our use below, provide helpers to convert PythonConvertible values to
 // owned and borrowed references.  These shouldn't be public though.
-fileprivate extension PythonConvertible {
+private extension PythonConvertible {
   var borrowedPyObject: UnsafeMutablePointer<PyObject> {
     return pythonValue.borrowedPyObject
   }
@@ -768,7 +768,7 @@ extension String : PythonConvertible {
   }
 }
 
-fileprivate extension PyValue {
+private extension PyValue {
   // This converts a PyValue to some given type by applying the appropriate
   // converter and checking against the error value.
   func converted<T : Equatable>(withError errorValue: T,

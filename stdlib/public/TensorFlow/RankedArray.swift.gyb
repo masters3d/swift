@@ -27,7 +27,7 @@ import CTensorFlow
 public typealias Array1D = Array
 public typealias ArraySlice1D = ArraySlice
 
-fileprivate extension Array1D {
+private extension Array1D {
   /// Creates an `Array1D` from a `ShapedArray`.
   /// - Precondition: The `ShapedArray` must have rank 1.
   /// - Note: This is an internal initializer and should not be exposed to
@@ -43,7 +43,7 @@ fileprivate extension Array1D {
   }
 }
 
-fileprivate extension ArraySlice1D {
+private extension ArraySlice1D {
   /// Creates an `ArraySlice1D` from a `ShapedArraySlice`.
   /// - Precondition: The `ShapedArraySlice` must have rank 1.
   /// - Note: This is an internal initializer and should not be exposed to

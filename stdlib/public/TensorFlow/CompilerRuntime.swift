@@ -328,7 +328,7 @@ internal extension _ExecutionContext {
   }
 }
 
-fileprivate extension _ExecutionContext {
+private extension _ExecutionContext {
   /// Load a serialized TensorFlow program in binary proto format to the
   /// context. If the program has already been loaded, this function does
   /// nothing.
@@ -512,7 +512,7 @@ private class TFState {
   let status: CTFStatus = TF_NewStatus()
 
   /// The TF_Session to execute the function.
-  fileprivate let cSession: CTFSession
+  let cSession: CTFSession
   /// The graph that contains the function to execute. Not owned.
   let graph: CTFGraph
   /// The input tensors.
